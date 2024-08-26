@@ -10,7 +10,7 @@ public class GameOfLife extends JPanel implements ActionListener {
     private int[][] grid = new int[rows][cols];
     private Timer timer;
 
-    public GameOfLifeGUI() {
+    public GameOfLife() {
         initialize();
         timer = new Timer(100, this);
         timer.start();
